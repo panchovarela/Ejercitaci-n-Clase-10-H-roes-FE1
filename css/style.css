@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/roboto/Roboto-Light.ttf');
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    padding: 15px;
+}
+
+footer, .portada{
+    width: 100%;
+}
+
+footer, .imagen,main section button, main section p, main section article p, .corazon{
+    position: absolute;
+}
+
+header div{
+    background-color: #1CD1B0;
+    padding: 5px;
+}
+
+header div span, main section article, main section article h2, main section button span{
+    position: relative;
+}
+
+header div span{
+    left: 25px;
+}
+
+header h1, main section button{
+    padding: 30px;
+}
+
+main section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+main section article{
+    background-color: #F3F3F3;
+    height: 670px;
+    margin: 150px 10px;
+    width: 390px;
+}
+
+main section article h2{
+    font-size: 40px;
+    text-align: center;
+    top: 80px;
+}
+
+main section article p{
+    font-size: 20px;
+    top: 403px;
+    margin: 0px 18px;
+}
+
+main section button, footer{
+    color: white;
+}
+
+main section button, header h1, footer{
+    background-color: #00669F;
+}
+
+main section button{
+    border: #00669F;
+    height: 48.52px;
+    top: 580px;
+    width: 160px;
+}
+
+main section button, .imagen{
+    left: 120px;
+}
+
+main section button span{
+    bottom: 10px;
+    font-size: 17px;
+}
+
+main section p{
+    top: 170px;
+}
+
+.corazon{
+    right: 325px;
+    top: 20px;
+    width: 40px;
+}
+
+.imagen{
+    bottom: 354px;
+    border-radius: 100%;
+    width: 148px;
+}
